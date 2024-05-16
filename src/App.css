@@ -1,0 +1,38 @@
+.user-container {
+    display: grid;
+    grid-template-columns:  repeat(auto-fill, minmax(18em, 1fr));
+    justify-items: center;
+    gap: 2em;
+}
+.button {
+    font-size: 1.2em;
+    margin: 0.7em;
+    padding: 0.1em;
+    background-color: rgba(255, 61, 2, 0.897);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.message-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.74);
+    backdrop-filter: blur(3px);
+    transition: transform 100ms ease;
+    font-size: 3em;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #720b9b, 0 0 20px #720b9b, 0  0 30px #720b9b, 0 0 40px #720b9b, 0 0 55px #ff00de;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    position: relative;
+    background-color: #ff1f0149;
+
+}
